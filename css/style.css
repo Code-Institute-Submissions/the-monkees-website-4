@@ -177,6 +177,49 @@ h3 {
 }
 
 
+/* ................................................The Guys */
+
+.member-info {
+  border: 3px solid #000;
+  background-color: plum;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  background-image: contain;
+}
+
+.image-member {
+  padding: 0;
+  margin: 10px;
+  height: 300px;
+  width: 390px;
+}
+
+.band_card {
+  background-color: #C53329;
+  display: block;
+  margin: 40px auto;
+  padding: 20px;
+  color: #fff;
+  border: none;
+}
+
+#bandMembers {
+  margin-bottom: 200px;
+}
+
+.band_card a>img,
+.band_card>img {
+
+  position: relative;
+  top: 10px;
+}
+
+.band_text {
+  padding-top: 10px;
+}
+
+
 /* ...............................................Book Page */
 
 .formgroup {
