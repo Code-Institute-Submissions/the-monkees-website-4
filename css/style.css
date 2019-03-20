@@ -368,4 +368,34 @@ footer {
 
 }
 
+/*................................................ Media Queries */
+
+
+@media (min-width: 576px) {
+
+
+  #cardsMusic {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .footer_text {
+    margin: 35px 0 0 0;
+    color: #fff;
+  }
+  .music_card {
+    padding: 20px;
+    color: #fff;
+    margin: 30px auto;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+
+  }
+
+  #video {
+    width: 350px;
+    margin-top: 30px;
+  }
+}
 
