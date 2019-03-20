@@ -159,6 +159,27 @@ input[type="date"] {
   color: #767676;
 }
 
+/*.....................................The Music*/
+
+#cardsMusic {
+  margin-bottom: 250px;
+}
+
+.music_card {
+  background: #60140F;
+  color: #fff;
+  margin: 20px auto 40px;
+  display: block;
+  padding: 20px;
+  border: none;
+}
+
+.audio {
+  width: 200px;
+  height: 40px;
+}
+
+
 /* .........................................Footer */
 
 footer {
