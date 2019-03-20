@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">  
+  <link href="https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <title></title>
+</head>
+
+<body>
+
+    <header class="container-fluid">
+    
+        <div id="navSection" class="row">
+          <ul id="nav" class="list-inline clearfix">
+            <li class="col-xs-12 col-sm-6 col-md-3 heading-colours-home menu-item"><a href="index.html"><span>Home</span></a></li>
+            <li class="col-xs-12 col-sm-6 col-md-3 heading-colours-themusic menu-item"><a href="themusic.html"><span>The Music</span></a></li>
+            <li class="col-xs-12 col-sm-6 col-md-3 heading-colours-theguys menu-item"><a href="theguys.html"><span>The Guys</span></a></li>
+            <li class="col-xs-12 col-sm-6 col-md-3 heading-colours-book menu-item"><a href="book.html"><span>Contact</span></a></li>
+          </ul>
+        </div>
+    
+    </header>   
+<!--Booking Form-->
+  
+  <main class="container-fluid">
+    <div class="row">
+      <div id="bookUs" class="col-xs-12">
+        <h1 class="page_title">Book Us</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div id="contactUs" class="card">
+          <i class="fa fa-calendar fa-5x icon" aria-hidden="true"></i>
+          <h4 class="card-title">Contact Us</h4>
+          <p>Book us in for a gig! Enter your details & the date you'd like below</p>
+          <form class="contactform" action="index.html" method="post">
+            <div class="formgroup"><input class="formcontrol" type="Name" name="name" placeholder="Your Full Name" required></div>
+            <div class="formgroup"><input class="formcontrol" type="Email" name="email" placeholder="Your Email Address" required></div>
+            <div class="formgroup"><input class="formcontrol" type="date" name="date" placeholder="Date requested" required></div>
+            <div class="formgroup"><textarea class="formcontrol" type="text" name="message" rows="10" placeholder="Further Details" required></textarea></div>
+            <button type="submit" value="send" class="btn btn-danger formButton">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+   <footer>
+   <div class="container-fluid">
+    <div id="signUp" class="row footer">
+       <div id="signUpContent" class="col-xs-12 col-sm-4">
+         <h4><em>sign up below for up to date news<em></h4>
+          <form id="emailForm" action="index.html" method="post">
+            <input type="email" name="email" placeholder="Email Address" class="email" required>
+            <input class="sign_up_btn"type="submit" value="Sign Up">
+          </form>
+       </div>
+
+      <div class="col-xs-12 col-sm-4">
+          <ul class="socials">
+            <li><a target="_blank" href="#"><i class="fa fa-facebook icons" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa fa-instagram icons" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa fa-youtube icons" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa fa-twitter icons" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa fa-spotify icons" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="#"><i class="fa fa-pinterest icons" aria-hidden="true"></i></a></li>
+          </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 footer_text">
+          <p>the monkees 2018 | Heather Caputo</p>
+      </div>
+    </div>
+  </div>       
+    </footer>
+    
+</body>
+</html>
