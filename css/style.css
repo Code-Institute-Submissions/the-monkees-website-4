@@ -175,6 +175,12 @@ footer {
 
 /*Email */
 
+
+.email {
+  padding: 8px;
+
+}
+
 .sign_up_btn {
 
     padding: 8px 10px 10px 10px;
