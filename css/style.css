@@ -109,11 +109,73 @@ h3 {
 
 /*.................................................Home Page*/
 
+#cardsHome {
+  margin-bottom: 50px;
+}
 
 .page_title {
   margin-top: 150px;
   margin-left: 30px;
 }
+
+
+.home_card {
+  background-color: #6E933F;
+  margin: 30px auto;
+  display: block;
+  padding: 20px;
+  color: #fff;
+  border: none;
+
+}
+
+.home_heading,
+.book_us_title {
+  position: relative;
+  top: 180px;
+  left: 30px;
+}
+
+.book_btn {
+  padding: 10px;
+  color: #000;
+  background: #fff;
+  Font-Family: 'Permanent Marker', Cursive;
+  font-size: 24px;
+  border-radius: 10%;
+  margin-top: 30px;
+}
+
+.book_btn:hover {
+  color: #fff;
+  background: #1A1A1A;
+}
+
+
+.album {
+  height: 300px;
+}
+
+#photos {
+  background: #6E933F;
+  margin-bottom: 200px;
+  border: none;
+  padding-top: 50px;
+
+}
+
+.music_image {
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin: auto;
+
+}
+
+.gallery_title {
+  margin-left: 30px;
+}
+
 
 /* ...............................................Book Page */
 
