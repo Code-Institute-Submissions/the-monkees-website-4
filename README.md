@@ -1,11 +1,11 @@
-## The Monkees band website
+# The Monkees band website
 
 This is the first project for the Code Institute. The aim was to produce a multi page website on the Monkees (the band).
 The website targets fans both old and new and provides them with the latest news and gigs as well as the ability to watch and listen to music.
 This website, although based on a real band, is of course fictional, and suggests all members of the band have reformed and are touring across
 the country. They are also available to book for special occasions! 
 
-# UX
+## UX
 
 As a user of this website I want to be able to navigate easily around the site. The navigation bar is clean and vibrant with headers 
 clearly labelled informing the user the purpose of the page. It is also responsive and alters in a user friendly way depending on screen size.
@@ -28,7 +28,7 @@ Finally, as a user I would want to be able to book the band. The website allows 
 Wireframes to this project can be found here
 
 
-# Features
+## Features
 
 Responsive Navigation bar, colourful with links to each page of the website. 
 
@@ -48,11 +48,11 @@ Footer - Provides social media icons, with the use of css animation when hovered
 The footer also provides an email input box to enable users to be able to sign up to the latest news.
 
 
-# Another feature idea
+## Another feature idea
 
-I would implement a more detailed latest news section
+I would implement a more detailed latest news section. 
 
-# Technologies Used
+## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
@@ -62,7 +62,7 @@ Bootstrap - used for forms and crucial grid system providing a responsive websit
 FontAwesome - used for the icons.
 Google Fonts - provides fonts for the site.
 
-# Testing
+## Testing
 
 This website has been tested on multiple screen sizes using chrome dev tools. It has also been tested on real devices such as iphones, samsung phones etc. 
 All HTML and CSS was passed through W3C validator with no errors. 
@@ -73,16 +73,16 @@ All audio links and the video has been tested and works without any issues.
 All links (excluding ones deliberately left out due to this being a fictional website) including to youtube and wikipedia work without any isssues. 
 
 
-# Deployment
+## Deployment
 
-This website has been deployed to github pages and can be viewed <a href="">here.</a>
+This website has been deployed to github pages and can be viewed <a href="https://caputocode.github.io/the-monkees-website/">here.</a>
 
-# Content/Credit
+## Content/Credit
 
 Band member descriptions were taken from wikipedia.
 Media images were provided by the Code Institute.
 
-# Acknowledgements
+## Acknowledgements
 
 I received inspiration for this project from the research of many band websites, particularly with fixed backgrounds.
 I was inspired to use a 60's colour theme and found this through google search and google's colour picker. 
