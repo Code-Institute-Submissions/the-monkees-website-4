@@ -35,7 +35,7 @@ h4 {
 }
 
 
-/* ....................................Colours */
+/* ....................................Nav Colours */
 
 .heading-colours-home {
     background: #6E933F;
@@ -116,7 +116,8 @@ h3 {
 
 .page_title {
     margin-top: 150px;
-    margin-left: 30px;
+    text-align: center;
+    
 }
 
 
@@ -159,7 +160,6 @@ h3 {
 
 #photos {
     background: #6E933F;
-    margin-bottom: 240px;
     border: none;
     padding-top: 50px;
 
@@ -174,7 +174,7 @@ h3 {
 }
 
 .gallery_title {
-    margin-left: 30px;
+    text-align: center;
 }
 
 
@@ -297,27 +297,25 @@ input[type="date"] {
 }
 
 
-
-
 /* .........................................Footer */
 
 footer {
     background-color: #1A1A1A;
     width: 100%;
     padding: 20px 0;
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;*/
+    /*bottom: 0;*/
     z-index: 2;
     height: auto;
     text-align: center;
     color: #fff;
 }
 
+
 /*Email */
 
 .email {
     padding: 8px;
-
 }
 
 .sign_up_btn {
@@ -335,7 +333,6 @@ footer {
 .sign_up_btn:hover {
     background: #1A1A1A;
 }
-
 
 
 /*Social  Media */
@@ -384,7 +381,6 @@ footer {
 
 @media (min-width: 576px) {
 
-
     #cardsMusic {
         margin-top: 50px;
         margin-bottom: 100px;
@@ -408,7 +404,17 @@ footer {
         margin-top: 30px;
     }
     
-
+    
+    footer {
+        width: 100%;
+        padding: 20px 0;
+        position: fixed;
+        bottom: 0;
+        z-index: 2;
+        height: auto;
+        text-align: center;
+        color: #fff;
+    }
 }
 
 @media (min-width: 767px) {
@@ -416,16 +422,20 @@ footer {
 
     #cardsHome {
         margin: 50px 15px 50px 15px;
-
     }
 
     #photos {
-        margin-bottom: 150px;
-
-}
+        margin: 50px 15px 200px 15px;
+    }
 
     .page_title {
         margin-top: 120px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    
+    .gallery_title {
+        text-align: left;
         margin-left: 30px;
     }
 
@@ -458,7 +468,7 @@ footer {
         width: 500px;
         height: 500px;
     }
-    
+
     .band_text {
         padding: 20px 60px;
     }
@@ -472,8 +482,6 @@ footer {
         width: 600px;
         height: 600px;
     }
-
-
 }
 
 @media (min-width: 992px) {
