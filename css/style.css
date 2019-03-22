@@ -206,6 +206,16 @@ h3 {
     border: none;
 }
 
+.band_card p a {
+    Font-Family: 'Permanent Marker', Cursive;
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.band_card p a:hover {
+    color: #EEA940;
+}
+
 #bandMembers {
     margin-bottom: 200px;
 }
@@ -218,7 +228,7 @@ h3 {
 }
 
 .band_text {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 /*.....................................The Music*/
@@ -269,7 +279,7 @@ h3 {
 }
 
 #contactUs {
-    background: rgb(238, 169, 64);
+    background: #EEA940;
     color: #fff;
     display: block;
     padding: 20px;
@@ -344,11 +354,11 @@ footer {
 
 .socials li a {
 
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     background-color: #fff;
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
     margin: 0;
     display: block;
     border-radius: 50%;
@@ -361,7 +371,6 @@ footer {
     position: relative;
     color: #262626;
     transition: .5s;
-    line-height: 25px;
 
 }
 
@@ -450,8 +459,8 @@ footer {
         height: 500px;
     }
     
-    .band_text p {
-        padding: 10px 60px;
+    .band_text {
+        padding: 20px 60px;
     }
 
     #contactUs {
