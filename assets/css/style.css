@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker");
 
 body {
-    background-image: url("assets/images/monkees.jpg");
+    background-image: url("/../assets/images/monkees.jpg");
     background-size: cover;
     background-attachment: fixed;
     bottom: 0;
