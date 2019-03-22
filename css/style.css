@@ -139,7 +139,7 @@ h4 {
 }
 
 #photos {
-    background: rgb(51, 51, 51, .6);
+    background: rgba(51, 51, 51, .6);
     border: none;
     margin: 0;
     padding-top: 50px;
@@ -239,10 +239,6 @@ h4 {
 
 #contactUs p {
     padding: 15px 50px;
-}
-
-input[type="date"] {
-    color: #767676;
 }
 
 
