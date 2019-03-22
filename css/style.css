@@ -124,7 +124,6 @@ h3 {
     display: block;
     padding: 20px;
     color: #fff;
-    border: none;
 }
 
 .home_heading,
@@ -199,7 +198,6 @@ h3 {
     margin: 40px auto;
     padding: 20px;
     color: #fff;
-    border: none;
 }
 
 .band_card p a {
@@ -232,7 +230,6 @@ h3 {
     margin: 20px auto 40px;
     display: block;
     padding: 20px;
-    border: none;
 }
 
 .audio {
@@ -261,7 +258,6 @@ h3 {
 .formButton {
     background: #C53329;
     color: #fff;
-    border: none;
 
 }
 
@@ -369,18 +365,10 @@ footer {
         margin: 35px 0 0 0;
         color: #fff;
     }
-    .music_card {
-        padding: 20px;
-        color: #fff;
-        margin: 30px auto;
-        border-radius: 50%;
-        width: 500px;
-        height: 500px;
-    }
 
     #video {
-        width: 350px;
-        margin-top: 30px;
+        width: 400px;
+        margin-top: 5px;
     }
 }
 
@@ -389,6 +377,10 @@ footer {
 
     #cardsHome {
         margin: 50px 15px 50px 15px;
+    }
+    
+    .home_card {
+        height: 400px;
     }
 
     #photos {
@@ -407,37 +399,29 @@ footer {
     }
 
     .music_card {
-        background: #60140F;
-        display: block;
-        padding: 20px;
-        color: #fff;
         margin: 0px auto 100px;
-        border-radius: 50%;
-        width: 450px;
-        height: 450px;
+        height: 400px;
     }
 
     .audio {
         height: 25px;
     }
-    .home_card {
-        display: block;
-        padding: 20px;
-        border-radius: 50%;
-        width: 400px;
-        height: 400px;
-    }
 
     .band_card {
-        padding: 20px;
-        margin: 0 auto 40px;
-        border-radius: 50%;
-        width: 500px;
         height: 500px;
     }
 
     .band_text {
-        padding: 20px 60px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #bandMembers {
+        margin-top: 50px;
+    }
+    
+    #bottomRowBand {
+        margin-bottom: 150px;
     }
 
     #cardsMusic {
@@ -446,13 +430,9 @@ footer {
     }
 
     #contactUs {
-        display: block;
         padding: 20px;
-        color: #fff;
-        margin: 0 auto 300px;
-        border-radius: 50%;
-        width: 600px;
-        height: 600px;
+        margin-bottom: 200px;
+
     }
     
     footer {
@@ -462,13 +442,14 @@ footer {
 }
 
 @media (min-width: 992px) {
+    
     .page_title {
         margin-top: 80px;
         margin-left: 30px;
     }
 
     .cardMembers {
-        margin-bottom: 40px;
+        margin-bottom: 140px;
     }
 }
 
@@ -479,25 +460,9 @@ footer {
         margin-bottom: 50px;
     }
 
-    .music_card {
-        width: 650px;
-        height: 650px;
-        border-radius: 50%;
-    }
-
-    #video {
-        width: 450px;
-        margin-top: 50px;
-    }
-
     .audio {
         width: 450px;
         margin-top: 25px;
-    }
-
-    #contactUs {
-        height: 750px;
-        width: 750px;
     }
 
 }
