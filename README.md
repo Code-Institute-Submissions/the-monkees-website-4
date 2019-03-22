@@ -25,7 +25,7 @@ I would also want to be able to read about each band member.
 Finally, as a user I would want to be able to book the band. The website allows users to do this by the use of a booking form.
 
 
-Wireframes to this project can be found here
+Wireframes to this project can be found in a folder within the project. 
 
 
 ## Features
@@ -72,6 +72,8 @@ The use of media queries has been used to ensure suitable layout continues on al
 All audio links and the video has been tested and works without any issues.
 All links (excluding ones deliberately left out due to this being a fictional website) including to youtube and wikipedia work without any isssues. 
 
+Of note, upon testing I felt that my original idea of having cirlce sections on larger screens, wasn't in keeping with abiding conistancy across the site, therefore
+these were changed back to the standard card shape div so that the site appears smoother in transitioning between screen sizes. 
 
 ## Deployment
 
