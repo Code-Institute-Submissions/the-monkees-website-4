@@ -1,3 +1,5 @@
+/*Google Fonts*/
+
 @import url("https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker");
 
 body {
@@ -16,7 +18,6 @@ body {
     margin: 0;
 }
 
-
 a:hover {
     text-decoration: none;
 }
@@ -27,6 +28,7 @@ h1 {
     font-size: 56px;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
 }
+
 
 h4 {
     Font-Family: 'Permanent Marker', Cursive;
@@ -56,15 +58,6 @@ h4 {
 
 
 /*......................................... Navigation   */
-
-h3 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff;
-    font-weight: 100;
-    padding: 20px;
-
-}
 
 #nav {
     margin: 0;
@@ -126,13 +119,6 @@ h3 {
     color: #fff;
 }
 
-.home_heading,
-.book_us_title {
-    position: relative;
-    top: 180px;
-    left: 30px;
-}
-
 .book_btn {
     padding: 10px;
     color: #000;
@@ -148,17 +134,15 @@ h3 {
     background: #1A1A1A;
 }
 
-
 .album {
     height: 300px;
 }
 
 #photos {
-    background: rgb(51,51,51, .6);
+    background: rgb(51, 51, 51, .6);
     border: none;
     margin: 0;
     padding-top: 50px;
-
 }
 
 .music_image {
@@ -166,7 +150,6 @@ h3 {
     height: 250px;
     display: block;
     margin: auto;
-
 }
 
 .gallery_title {
@@ -174,24 +157,23 @@ h3 {
 }
 
 
+/*.....................................The Music*/
+
+.music_card {
+    background: #60140F;
+    color: #fff;
+    margin: 20px auto 40px;
+    display: block;
+    padding: 20px;
+}
+
+.audio {
+    width: 200px;
+    height: 40px;
+}
+
 
 /* ................................................The Guys */
-
-.member-info {
-    border: 3px solid #000;
-    background-color: plum;
-    height: 300px;
-    width: 300px;
-    margin: 10px;
-    background-image: contain;
-}
-
-.image-member {
-    padding: 0;
-    margin: 10px;
-    height: 300px;
-    width: 390px;
-}
 
 .band_card {
     background-color: #C53329;
@@ -223,22 +205,6 @@ h3 {
     padding-top: 30px;
 }
 
-/*.....................................The Music*/
-
-.music_card {
-    background: #60140F;
-    color: #fff;
-    margin: 20px auto 40px;
-    display: block;
-    padding: 20px;
-}
-
-.audio {
-    width: 200px;
-    height: 40px;
-}
-
-
 /* ...............................................Book Page */
 
 .formgroup {
@@ -253,7 +219,7 @@ h3 {
     margin: 0 auto;
     padding: 8px 10px;
     border-radius: 4px;
-    border: 1px solid #000;
+    border: 1px solid #1A1A1A;
 }
 
 .formButton {
@@ -376,11 +342,17 @@ footer {
 
 @media (min-width: 767px) {
 
+    .page_title {
+        margin-top: 120px;
+        margin-left: 30px;
+        text-align: left;
+    }
 
+    /*home */
     #cardsHome {
         margin: 50px 15px 50px 15px;
     }
-    
+
     .home_card {
         height: 400px;
     }
@@ -389,17 +361,12 @@ footer {
         margin: 50px 15px 200px 15px;
     }
 
-    .page_title {
-        margin-top: 120px;
-        margin-left: 30px;
-        text-align: left;
-    }
-    
     .gallery_title {
         text-align: left;
         margin-left: 30px;
     }
 
+    /*the music*/
     .music_card {
         margin: 0px auto 100px;
         height: 400px;
@@ -409,6 +376,12 @@ footer {
         height: 25px;
     }
 
+    #cardsMusic {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    /*the guys*/
     .band_card {
         height: 500px;
     }
@@ -417,25 +390,23 @@ footer {
         width: 70%;
         margin: 0 auto;
     }
-    
+
     #bandMembers {
         margin-top: 50px;
     }
-    
+
     #bottomRowBand {
         margin-bottom: 150px;
     }
 
-    #cardsMusic {
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
 
+    /*book us*/
     #contactUs {
         margin-bottom: 200px;
 
     }
-    
+
+    /*footer*/
     footer {
         position: fixed;
         bottom: 0;
@@ -443,12 +414,13 @@ footer {
 }
 
 @media (min-width: 992px) {
-    
+
     .page_title {
         margin-top: 80px;
         margin-left: 30px;
     }
 
+    /*the guys*/
     .cardMembers {
         margin-bottom: 140px;
     }
@@ -456,6 +428,7 @@ footer {
 
 @media (min-width: 1600px) {
 
+    /*the music*/
     #cardsMusic {
         margin-top: 50px;
         margin-bottom: 50px;
