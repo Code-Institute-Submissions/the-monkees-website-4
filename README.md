@@ -54,8 +54,6 @@ I would implement a more detailed latest news section.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 HMTL - forms the basis of the site. Semantic code has been used in line with the latest version of HTML (5)
 CSS - used extensively throughout the website to provide style and layout.
 Bootstrap - used for forms and crucial grid system providing a responsive website.
@@ -66,6 +64,9 @@ Google Fonts - provides fonts for the site.
 
 This website has been tested on multiple screen sizes using chrome dev tools. It has also been tested on real devices such as iphones, samsung phones etc. 
 All HTML and CSS was passed through W3C validator with no errors. 
+
+The booking form was tested in various browsers and there was an issue with the placeholder colour and the ability to type in to the input fields. I managed
+to get around this issue by adding a color property to .formcontrol as well adding vendor prefixed properties to css file and this seem to do the trick.
 
 Navbar testing - all links successfully navigate to the desired page.
 The use of media queries has been used to ensure suitable layout continues on all screen size.
@@ -83,6 +84,7 @@ This website has been deployed to github pages and can be viewed <a href="https:
 
 Band member descriptions were taken from wikipedia.
 Media images were provided by the Code Institute.
+Stack Overflow for helping answer text area and input issue on booking form.
 
 ## Acknowledgements
 
